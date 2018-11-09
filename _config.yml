@@ -1,0 +1,19 @@
+baseurl: /
+title: Transport Forecast Accuracy
+permalink: pretty
+collections:
+  guests:
+    output: true
+description: Providing all available, reliable information and reference links that discuss travel forecasting accuracy and forecasting methods to accelerate identification of forecasting challenges and good forecasting practices.
+url: http://TransportForecastAccuracy.com
+author: David Schmitt
+exclude: [README.md]
+gems:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-optional-front-matter
+  - jekyll-titles-from-headings
+  - jekyll-feed
+  - jekyll-default-layout
+  - jekyll-avatar
+  - jemoji

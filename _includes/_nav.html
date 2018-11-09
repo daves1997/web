@@ -1,0 +1,25 @@
+<nav>
+  <ul class="nav {{include.navclass}}">
+    <li>
+      <a
+        href="{{site.baseurl}}/studies/"
+        class="{% if page.url == '/studies.html' %}current{% endif %}"
+        >Predicted/Actual Studies</a
+      >
+    </li>
+    <li>
+      <a
+        href="{{site.baseurl}}/resources/"
+        class="{% if page.url == '/resources.html' %}current{% endif %}"
+        >Useful Articles, Papers, Materials</a
+      >
+    </li>
+    <li>
+      <a
+        href="{{site.baseurl}}/products-services/"
+        class="{% if page.url == '/products-services.html' %}current{% endif %}"
+        >Forecasting Products</a
+      >
+    </li>
+  </ul>
+</nav>
